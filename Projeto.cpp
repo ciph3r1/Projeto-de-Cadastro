@@ -20,7 +20,7 @@ using namespace std;
             
             cout<<"Informe o seu nome completo:"<<endl;
              cin>>nome;
-            cout<<"Informe o CPF do funcionario a ser registrado:"<<endl;
+            cout<<"\nInforme o CPF do funcionario a ser registrado:"<<endl;
              cin>>cpf;
             cout<<"Informe o seu Endereço completo:"<<endl;
              cin>>endereço;
@@ -28,6 +28,11 @@ using namespace std;
              cin>>tipo;
             cout<<"Digite a data de admissão:"<<endl;
              cin>>dia>>mes>>ano;
+       }
+       else 
+       {
+          cout<<"\nSenha Incorreta!"<<endl;
+          cout<<"Nao sera possivel prosseguir com seu cadastro, tente novamente.";
        }
         return 0;
     }
