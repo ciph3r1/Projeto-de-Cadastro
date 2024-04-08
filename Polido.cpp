@@ -32,13 +32,13 @@ int main() {
     cin.ignore();
     getline(cin, nome);
 
-    cout << "\nDigite o endereço do funcionário: " << endl;
+    cout << "\nDigite o endereço do funcionário: Ex: Rua Maria Andrade, 79" << endl;
     getline(cin, endereco);
 
-    cout << "\nDigite o CPF do funcionário: " << endl;
+    cout << "\nDigite o CPF do funcionário: Ex: 000.000.000-00" << endl;
     getline(cin, cpf);
 
-    cout << "\nDigite a data de admissão do funcionário: " << endl;
+    cout << "\nDigite a data de admissão do funcionário: Ex: dd/mm/aaaa" << endl;
     getline(cin, DT_admissao);
 
     cout << "\nDigite o tipo do funcionário (1 - Efetivo, 2 - Temporário, 3 - Estagiário): " << endl;
